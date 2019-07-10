@@ -35,4 +35,9 @@ public class Article {
     public void setContents(String contents) {
         this.contents = contents;
     }
+
+    @Override
+    public String toString() {
+        return "title: " + title + " coverUrl: " + coverUrl + " contents: " + contents;
+    }
 }
